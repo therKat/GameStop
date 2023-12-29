@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_DB7A30">#DB7A30</color>
+    <color name="color_8B93A7">#8B93A7</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_ADADAD">#40ADADAD</color>
+    <color name="color_F6F7F8">#F6F7F8</color>
+    <color name="color_51596C">#51596C</color>
+    <color name="color_C5C9D3">#C5C9D3</color>
+    <color name="color_252932">#252932</color>
+    <color name="color_F0F1F4">#F0F1F4</color>
+    <color name="color_FF7171">#FF7171</color>
+
+
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="semi_black_transparent">#99000000</color>
+    <color name="color_E2E4E9">#E2E4E9</color>
+
+    <color name="neutral1">#252932</color>
+    <color name="neutral4">#C5C9D3</color>
+    <color name="color_F7E9E0">#F7E9E0</color>
+    <color name="color_336BD8">#336BD8</color>
+    <color name="color_292D32">#292D32</color>
+</resources>

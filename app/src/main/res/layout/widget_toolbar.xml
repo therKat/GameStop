@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        >
+        <FrameLayout
+            android:id="@+id/view_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_border_header"
+            android:elevation="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            >
+
+            <RelativeLayout
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:paddingLeft="@dimen/_9sdp"
+                android:paddingRight="@dimen/_9sdp"
+                android:paddingTop="@dimen/_6sdp"
+                android:paddingBottom="@dimen/_6sdp"
+                android:background="@drawable/ripple_bg_white"
+                >
+                <ImageView
+                    android:id="@+id/img_back"
+                    android:layout_width="@dimen/_10sdp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_back"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/language"
+                android:textColor="@color/color_DB7A30"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/btn_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:padding="@dimen/_4sdp"
+                android:background="@drawable/ripple_bg_white"
+                >
+                <ImageView
+                    android:id="@+id/img_done"
+                    android:layout_width="@dimen/_23sdp"
+                    android:adjustViewBounds="true"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_done"
+                    />
+            </RelativeLayout>
+
+        </FrameLayout>
+    </FrameLayout>
+
+</layout>

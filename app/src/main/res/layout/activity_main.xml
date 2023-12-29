@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/view_container_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_6sdp"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:layout_gravity="bottom|center"
+                    app:cardCornerRadius="@dimen/_32sdp"
+                    app:cardBackgroundColor="@android:color/transparent"
+                    >
+                    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+                        android:id="@+id/bottomNav"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:padding="@dimen/_12sdp"
+                        android:background="@drawable/bg_bottom_nav"
+                        android:theme="@style/ChipNavigationViewTextStyle"
+                        app:cnb_iconSize="26dp"
+                        app:cnb_menuResource="@menu/menu_bottom"
+                        app:labelVisibilityMode="selected"
+                        />
+                </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526727949989",
+    "project_id": "app100-photo-gallery",
+    "storage_bucket": "app100-photo-gallery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526727949989:android:33037a9715928c3a89674c",
+        "android_client_info": {
+          "package_name": "com.gallery.photovault.picturegalleryapp.lockgallery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526727949989-13o86n0coci2cgegqn1aj4l9aje3issd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9tcyrvh24tLfbKw4GBMt0rR7eEo5MnJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526727949989-13o86n0coci2cgegqn1aj4l9aje3issd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
