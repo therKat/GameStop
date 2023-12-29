@@ -5,7 +5,7 @@ object Constants {
     const val POLICY_PATH = "https://biuustudio.netlify.app/policy"
     const val NORMAL = "normal"
     const val PRIVATE = "private"
-    const val BASE_URL = "http://192.168.31.130:5000/"
+    const val BASE_URL = "http://192.168.1.69:5000/"
 
     /** Type */
     const val IMAGE_TYPE = 0
